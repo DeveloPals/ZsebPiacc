@@ -13,8 +13,10 @@
         android:id="@+id/formBack"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:scaleType="centerCrop"
-        android:src="@drawable/background" />
+        android:src="@drawable/sunset" />
 
     <ImageView
         android:id="@+id/formLogo"
@@ -23,7 +25,7 @@
         android:layout_marginTop="25dp"
         android:scaleType="fitCenter"
         android:src="@drawable/logo" />
-    <!--
+    <!-- kezdőképernyő
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="40dp"
@@ -34,12 +36,12 @@
             android:layout_marginTop="10dp"/>
     -->
 
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/formLogo"
-        android:layout_marginTop="30dp">
+        android:layout_marginTop="30dp"
+        android:layout_above="@+id/tv_create_account">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -56,18 +58,19 @@
                 android:layout_height="40dp"
                 android:layout_marginBottom="8dp"
                 android:layout_marginTop="0dp"
-                android:background="@drawable/rounded_white"
+                android:background="@drawable/trans_white_rectangle"
                 android:drawableLeft="@drawable/ic_user_icon"
                 android:drawablePadding="15dp"
                 android:hint="Email"
                 android:paddingStart="15dp"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                android:textColor="#fff"/>
 
             <AutoCompleteTextView
                 android:id="@+id/userPassword"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:background="@drawable/rounded_white"
+                android:background="@drawable/trans_white_rectangle"
                 android:drawableLeft="@drawable/ic_password_icon"
                 android:drawablePadding="15dp"
                 android:hint="Jelszó"
@@ -79,7 +82,7 @@
                 android:id="@+id/user_login"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="16dp"
                 android:background="@drawable/login_button"
                 android:text="Belépés"
                 android:textAllCaps="false"
@@ -99,8 +102,6 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
-                android:layout_centerVertical="true"
-                >
 
                 <TextView
                     android:id="@+id/tvText"
@@ -162,11 +163,13 @@
         android:id="@+id/tv_create_account"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_alignParentBottom="true"
+        android:layout_alignBottom="@+id/formBack"
+        android:layout_marginBottom="0dp"
         android:gravity="center"
         android:onClick="createAccountClick"
         android:text="@string/create_account"
         android:textColor="@color/white"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>
