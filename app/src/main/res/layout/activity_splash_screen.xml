@@ -10,9 +10,11 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:scaleType="fitXY"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/background"
+        app:srcCompat="@drawable/hatter"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="0dp" />
 

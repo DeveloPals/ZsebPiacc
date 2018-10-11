@@ -12,8 +12,10 @@
         android:id="@+id/formBack"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:scaleType="centerCrop"
-        android:src="@drawable/sunset" />
+        android:src="@drawable/background" />
 
     <ImageView
         android:id="@+id/formLogo"
@@ -39,7 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/formLogo"
-        android:layout_marginTop="30dp">
+        android:layout_marginTop="60dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -50,7 +52,6 @@
             android:paddingLeft="16dp"
             android:paddingRight="16dp">
 
-
             <AutoCompleteTextView
                 android:id="@+id/userEmail"
                 android:layout_width="match_parent"
@@ -59,7 +60,9 @@
                 android:background="@drawable/trans_white_rectangle"
                 android:drawableLeft="@drawable/ic_user_icon"
                 android:drawablePadding="15dp"
+                android:drawableTint="#fff"
                 android:hint="Email"
+                android:textColorHint="#d9d9d9"
                 android:paddingStart="15dp"
                 android:textSize="14sp"
                 android:transitionName="emailTransition" />
@@ -72,7 +75,9 @@
                 android:background="@drawable/trans_white_rectangle"
                 android:drawableLeft="@drawable/ic_password_icon"
                 android:drawablePadding="15dp"
+                android:drawableTint="#fff"
                 android:hint="Jelszó"
+                android:textColorHint="#d9d9d9"
                 android:inputType="textPassword"
                 android:paddingStart="15dp"
                 android:textSize="14sp"
@@ -84,8 +89,10 @@
                 android:layout_height="40dp"
                 android:background="@drawable/trans_white_rectangle"
                 android:drawableLeft="@drawable/ic_password_icon"
+                android:drawableTint="#fff"
                 android:drawablePadding="15dp"
                 android:hint="Jelszó megerősítése"
+                android:textColorHint="#d9d9d9"
                 android:inputType="textPassword"
                 android:paddingStart="15dp"
                 android:textSize="14sp" />
@@ -96,6 +103,7 @@
                 android:layout_marginTop="30dp"
                 android:background="@drawable/login_button"
                 android:text="Regisztráció"
+                android:textSize="17dp"
                 android:textAllCaps="false"
                 android:textColor="#000"
                 android:transitionName="loginTransition" />
@@ -112,5 +120,6 @@
         android:text="Adatvédelmi nyilatkozat elfogadása."
         android:textColor="@color/white"
         android:textSize="16sp" />
+
 
 </RelativeLayout>
