@@ -21,14 +21,13 @@ import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 
 public class MainActivity extends AppCompatActivity {
-/*próba*/
+
     private AutoCompleteTextView mEmail;
     private AutoCompleteTextView mPassword;
     private Button mLogin;
     private TextView mCreateAccount;
     private TextView mForgotPassword;
 
-    /*próba*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
