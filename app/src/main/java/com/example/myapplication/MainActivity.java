@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     private AutoCompleteTextView mPassword;
     private Button mLogin;
     private TextView mCreateAccount;
+    private TextView mForgotPassword;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +40,8 @@ public class MainActivity extends AppCompatActivity {
         mCreateAccount = (TextView) findViewById(R.id.tv_create_account);
         String text = "Nincs fiókja? <font color='#f7cb00'> Fiók létrehozása.</font>";
         mCreateAccount.setText(Html.fromHtml(text), TextView.BufferType.SPANNABLE);
+
+        mForgotPassword = (TextView) findViewById(R.id.tv_forgot_password);
 
         mCreateAccount.setOnTouchListener(new View.OnTouchListener() {
             @Override
@@ -70,7 +73,8 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-   public void createAccountClick(View view) {
+
+    public void createAccountClick(View view) {
 
 
 
