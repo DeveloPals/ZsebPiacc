@@ -1,15 +1,8 @@
-package com.example.myapplication;
+package com.developals.zsebpiac;
 
 import android.content.Intent;
-import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Window;
-import android.view.WindowManager;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
 
 public class SplashScreenActivity extends AppCompatActivity {
 

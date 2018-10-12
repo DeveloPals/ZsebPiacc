@@ -1,13 +1,13 @@
-package com.example.myapplication;
+package com.developals.zsebpiac;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class SharedActivity extends AppCompatActivity {
+public class ForgotPsswdActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_shared);
+        setContentView(R.layout.activity_forgot_psswd);
     }
 }

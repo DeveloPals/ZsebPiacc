@@ -1,8 +1,5 @@
 <resources>
     <string name="app_name">Zsebpiac</string>
-    <string name="facebook_app_id">352382245306177</string>
-    <string name="fb_login_protocol_scheme">fb352382245306177</string>
-    <string name="create_account">
- <![CDATA[ Nincs fiókja? Fiók létrehozása. ]]>
-  </string>
+    <string name="facebook_app_id">354327718466314</string>
+    <string name="fb_login_protocol_scheme">fb354327718466314</string>
 </resources>

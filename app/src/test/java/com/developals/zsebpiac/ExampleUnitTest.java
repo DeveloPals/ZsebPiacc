@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.developals.zsebpiac;
 
 import org.junit.Test;
 

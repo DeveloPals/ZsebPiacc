@@ -1,24 +1,17 @@
-package com.example.myapplication;
+package com.developals.zsebpiac;
 
 import android.app.ActivityOptions;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import android.support.design.widget.TabLayout;
-import android.support.design.widget.TabItem;
 import android.text.Html;
 import android.util.Pair;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.view.View.OnTouchListener;
-
-import com.google.android.gms.auth.api.signin.GoogleSignIn;
-import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 
 public class MainActivity extends AppCompatActivity {
 /*próba*/
